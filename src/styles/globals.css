@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  height: 100%;
+  background: rgb(201, 189, 179);
+  display: flex;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.sidebar {
+  flex-basis: 280px;
+  background-color: rgb(33, 51, 51);
+  font-weight: 600;
+  padding: 20px 8px;
+  color: white;
+}
